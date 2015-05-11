@@ -434,7 +434,7 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                                 <items>
                                                     <navigationItem title="Description" id="cb2-gh-jeH">
-                                                        <barButtonItem key="rightBarButtonItem" title="Done" id="vKj-Xs-OZI">
+                                                        <barButtonItem key="rightBarButtonItem" title="Next" id="vKj-Xs-OZI">
                                                             <connections>
                                                                 <segue destination="mxC-Kl-moe" kind="show" id="7ge-zw-9ez"/>
                                                             </connections>
@@ -551,7 +551,11 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                 <items>
                                     <navigationItem title="Title" id="UST-P2-e7k">
-                                        <barButtonItem key="rightBarButtonItem" title="Done" id="YuU-X8-KSq"/>
+                                        <barButtonItem key="rightBarButtonItem" title="Done" id="YuU-X8-KSq">
+                                            <connections>
+                                                <segue destination="49e-Tb-3d3" kind="show" id="xTy-nB-zAR"/>
+                                            </connections>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -612,7 +616,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dm7-jh-WV5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2360.5" y="-690.5"/>
+            <point key="canvasLocation" x="2392.5" y="-690.5"/>
         </scene>
         <!--Item-->
         <scene sceneID="1P2-uv-VUh">
@@ -714,4 +718,7 @@
         <image name="gselogomark" width="347" height="347"/>
         <image name="second" width="30" height="30"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="xTy-nB-zAR"/>
+    </inferredMetricsTieBreakers>
 </document>
