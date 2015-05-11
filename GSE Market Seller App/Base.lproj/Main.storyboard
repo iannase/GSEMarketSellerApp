@@ -618,7 +618,7 @@
             </objects>
             <point key="canvasLocation" x="2392.5" y="-690.5"/>
         </scene>
-        <!--Item-->
+        <!--New Listing-->
         <scene sceneID="1P2-uv-VUh">
             <objects>
                 <viewController id="s5Z-Je-hEL" sceneMemberID="viewController">
@@ -683,7 +683,7 @@
                             <constraint firstItem="sDe-De-VPh" firstAttribute="leading" secondItem="IEG-lF-p5u" secondAttribute="leadingMargin" constant="92" id="x9U-cE-ymk"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" image="Add Property-25" selectedImage="first" id="mtu-1w-Yj8"/>
+                    <tabBarItem key="tabBarItem" title="New Listing" image="Add Property-25" selectedImage="first" id="mtu-1w-Yj8"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CqH-ZK-eYY" userLabel="First Responder" sceneMemberID="firstResponder"/>
