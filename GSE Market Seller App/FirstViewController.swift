@@ -10,7 +10,6 @@ import UIKit
 
 class FirstViewController: UIViewController {
     
-    
     @IBOutlet weak var gsemarket: UILabel!
     
     @IBOutlet weak var gselogo: UIImageView!
@@ -23,19 +22,17 @@ class FirstViewController: UIViewController {
 
     @IBOutlet weak var loginButton: UIButton!
     
-    @IBAction func loginUser(sender: UIButton) {
-        
+    @IBAction func loginUser(sender: AnyObject) {
 
-        
     }
     
     
-    override func viewDidLoad() {
+     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-    override func didReceiveMemoryWarning() {
+     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
