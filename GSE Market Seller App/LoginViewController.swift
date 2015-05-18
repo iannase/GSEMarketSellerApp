@@ -10,27 +10,8 @@ import UIKit
 
 class FirstViewController: UIViewController {
     
-    @IBOutlet weak var gsemarket: UILabel!
     
-    @IBOutlet weak var gselogo: UIImageView!
-    
-    @IBOutlet weak var loginLabel: UILabel!
-    
-    @IBOutlet weak var usernameTextField: UITextField!
-    
-    @IBOutlet weak var passwordTextField: UITextField!
 
-    @IBOutlet weak var loginButton: UIButton!
-    
-    @IBAction func loginUser(sender: AnyObject) {
-
-    }
-    
-    
-     override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
 
      override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

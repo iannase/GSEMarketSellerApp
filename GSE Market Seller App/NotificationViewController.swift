@@ -1,16 +1,16 @@
 //
-//  DescriptionViewController2.swift
+//  NotificationViewController.swift
 //  GSE Market Seller App
 //
-//  Created by Ian on 5/11/15.
+//  Created by Ian on 5/18/15.
 //  Copyright (c) 2015 GSEMarket. All rights reserved.
 //
 
 import UIKit
 
-class DescriptionViewController2: UIViewController {
+class NotificationViewController: UIViewController {
 
-    var newUsed = ["New", "Used"]
+    var notification = ["Yes", "No"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,6 +23,7 @@ class DescriptionViewController2: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    
     func numberOfComponentsInPickerView(pickerView: UIPickerView) -> Int{
         
         return 1
@@ -31,13 +32,13 @@ class DescriptionViewController2: UIViewController {
     
     func pickerView(pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int{
         
-        return newUsed.count
+        return notification.count
         
     }
     
     func pickerView(pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String!{
         
-        return newUsed[row]
+        return notification[row]
         
     }
 

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C027F8B1B0A5C7000F5DB4B /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C027F8A1B0A5C7000F5DB4B /* CategoryViewController.swift */; };
+		3C027F8D1B0A5C8C00F5DB4B /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C027F8C1B0A5C8C00F5DB4B /* NotificationViewController.swift */; };
 		3C0468F61B0124BF00ACF25F /* GetStartedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0468F51B0124BF00ACF25F /* GetStartedViewController.swift */; };
 		3C0468F81B0124FB00ACF25F /* DescriptionViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0468F71B0124FB00ACF25F /* DescriptionViewController2.swift */; };
 		3C0468FA1B01252900ACF25F /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0468F91B01252900ACF25F /* LocationViewController.swift */; };
@@ -33,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C027F8A1B0A5C7000F5DB4B /* CategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		3C027F8C1B0A5C8C00F5DB4B /* NotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
 		3C0468F51B0124BF00ACF25F /* GetStartedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetStartedViewController.swift; sourceTree = "<group>"; };
 		3C0468F71B0124FB00ACF25F /* DescriptionViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DescriptionViewController2.swift; sourceTree = "<group>"; };
 		3C0468F91B01252900ACF25F /* LocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
@@ -96,6 +100,8 @@
 				3C1BAB601AF9645C0089E568 /* DescriptionViewController.swift */,
 				3C0468F51B0124BF00ACF25F /* GetStartedViewController.swift */,
 				3C1BAB621AF9645C0089E568 /* Main.storyboard */,
+				3C027F8A1B0A5C7000F5DB4B /* CategoryViewController.swift */,
+				3C027F8C1B0A5C8C00F5DB4B /* NotificationViewController.swift */,
 				3C0468F91B01252900ACF25F /* LocationViewController.swift */,
 				3C0468FB1B01253F00ACF25F /* AddLocationViewController.swift */,
 				3C0468FD1B01255700ACF25F /* InventoryViewController.swift */,
@@ -233,6 +239,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C027F8B1B0A5C7000F5DB4B /* CategoryViewController.swift in Sources */,
+				3C027F8D1B0A5C8C00F5DB4B /* NotificationViewController.swift in Sources */,
 				3C1BAB611AF9645C0089E568 /* DescriptionViewController.swift in Sources */,
 				3C1BAB5D1AF9645C0089E568 /* AppDelegate.swift in Sources */,
 				3C0468F81B0124FB00ACF25F /* DescriptionViewController2.swift in Sources */,
